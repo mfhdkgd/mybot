@@ -1,7 +1,6 @@
 from telegram import Update, ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, CallbackQueryHandler, ContextTypes
-import os
-TOKEN = os.getenv("TOKEN")
+TOKEN = "7855921540:AAHghfllHYT9Fz1qNFvyDh4tbT6ZfK4UbBY"
 
 warnings = {}
 welcome_message = "سلام! خوش اومدی به گروه 🎉"
